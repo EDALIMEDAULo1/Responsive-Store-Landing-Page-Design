@@ -171,3 +171,12 @@ font-weight: 200;
     padding-bottom: 20px;
   }
 }
+/*
+BRIEF DESCRIPTION OF THE DESIGN CHOICES MADE DURING THE DEVELOPMENT PROCESS
+The design focuses on simplicity, structure, and consistency. A universal reset was applied to remove default spacing and ensure consistent sizing across elements. This makes the layout predictable and easier to manage.
+
+Flexbox was used to structure the navigation bar, product section, and footer. This allows items to be evenly spaced and properly aligned, creating a clean and modern layout. The products are displayed horizontally on larger screens for balance.
+
+A consistent dark red color palette was chosen to reflect an elegant couture theme. Neutral text colors improve readability, while rounded corners on images and buttons create a soft, stylish appearance. Hover effects were added to improve user interaction.
+
+Responsive design was implemented using a media query. On smaller screens, the layout changes to a vertical structure, font sizes are reduced, and certain elements like the cart icon are hidden to improve mobile usability. */
