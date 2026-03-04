@@ -1,0 +1,173 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.logoimg{
+  width: 70px;
+  border-radius: 40px;
+}
+.cartimg{
+  width: 50px;
+}
+.nav-list a{
+  text-decoration: none;
+  color: darkred;
+}
+.nav-list ul{
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 50px;
+  color: blueviolet;
+}
+.products{
+  display: flex;
+  flex-direction: column;
+}
+ .couture-header > h1{
+  text-align: center;
+  font-weight: 600;
+  color: darkred;
+  font-size: 80px;
+  padding-bottom: 40px;
+} 
+.product-content{
+  display: flex;
+  justify-content: space-around;
+}
+.couture1, .couture2, .couture3, .couture4{
+  width: 250px;
+  height: 300px;
+  border-radius: 20px;
+}
+.prod1-dsc h2, .prod2-dsc h2, .prod3-dsc h2, .prod4-dsc h2{
+color: darkred;
+font-weight: 200;
+}
+.prod1-dsc p, .prod2-dsc p, .prod3-dsc p, .prod4-dsc p{
+  color: rgb(77, 73, 73);
+  font-weight: 200;
+  line-height: 1.5;
+  }
+
+.cart1 p, .cart2 p, .cart3 p, .cart4 p{
+  background-color: darkred;
+  width: 150px;
+  color: aliceblue;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.cart1 p:hover,
+.cart2 p:hover,
+.cart3 p:hover,
+.cart4 p:hover {
+  background-color: khaki;
+  color: darkred;
+}
+.socials img{
+ 
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+   margin: 10px;
+}
+.footerimg{
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+}
+.footer-sec{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  margin-top: 70px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  background-color: darkred;
+}
+.footer-txt a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+.footer-txt ul{
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 50px;
+  color: whitesmoke;
+}
+.footer-txt {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr );
+  gap: 30px;
+}
+.copyright p{
+  color: whitesmoke;
+  line-height: 1;
+}
+/* create a responsive design */
+@media screen and (max-width: 752px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .cartimg {
+    display: none;
+  }
+  .products{
+    display: flex;
+    flex-direction:column ;
+  }
+  .couture-header h1{
+    font-size: 40px;
+    font-weight: 60;
+    padding-bottom: 20px;
+  }
+  .product-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .product-1, .product-2, .product-3, .product-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .prod1-dsc, .prod2-dsc, .prod3-dsc, .prod4-dsc{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-sec{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+}
